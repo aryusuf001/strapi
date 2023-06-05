@@ -14,14 +14,16 @@ const HomePage = () => {
 	  document.getElementById('statusMessage').style.display = 'block';
           document.getElementById('statusMessage').textContent = 'Syncing data...please wait';
           document.getElementById('statusMessage').style.color = '#000';
-    fetch('https://tiptopdroomvakanties.nl/php/server')
+    fetch('https://tiptopdroomvakanties.nl/php/smoobu.php')
       .then(response => {
+   
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
         return response.json();
       })
       .then(data => {
+
         if (data.status === 'success') {
 		  document.getElementById('statusMessage').style.display = 'block';
           document.getElementById('statusMessage').textContent = 'Data synced';

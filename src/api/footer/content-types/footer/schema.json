@@ -4,7 +4,8 @@
   "info": {
     "singularName": "footer",
     "pluralName": "footerpl",
-    "displayName": "Footer"
+    "displayName": "Footer Social Icons",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

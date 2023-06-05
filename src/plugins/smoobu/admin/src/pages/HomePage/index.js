@@ -14,7 +14,7 @@ const HomePage = () => {
 	  document.getElementById('statusMessage').style.display = 'block';
           document.getElementById('statusMessage').textContent = 'Syncing data...please wait';
           document.getElementById('statusMessage').style.color = '#000';
-    fetch('http://192.168.0.105/husoedeal/server')
+    fetch('https://tiptopdroomvakanties.nl/php/server')
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');

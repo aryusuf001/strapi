@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "meer_information_pagespl",
+  "info": {
+    "singularName": "meer-information-pages",
+    "pluralName": "meer-information-pagespl",
+    "displayName": "Meer Information Pages"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "article": {
+      "type": "richtext"
+    },
+    "media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

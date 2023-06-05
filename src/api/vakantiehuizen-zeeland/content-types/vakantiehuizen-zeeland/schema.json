@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vakantiehuizen_zeelandpl",
+  "info": {
+    "singularName": "vakantiehuizen-zeeland",
+    "pluralName": "vakantiehuizen-zeelandpl",
+    "displayName": "Vakantiehuizen Zeeland",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "smoobu_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "media": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "smoobu_json": {
+      "type": "json"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Holiday Home",
+        "Beach House"
+      ]
+    },
+    "package": {
+      "type": "enumeration",
+      "enum": [
+        "Last Minute",
+        "Week away in June"
+      ]
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.services"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nieuws_pl",
+  "info": {
+    "singularName": "nieuws",
+    "pluralName": "nieuws-pl",
+    "displayName": "Nieuws",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "article": {
+      "type": "richtext"
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

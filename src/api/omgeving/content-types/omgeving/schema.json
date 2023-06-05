@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "omgevingpl",
+  "info": {
+    "singularName": "omgeving",
+    "pluralName": "omgevingpl",
+    "displayName": "Omgeving",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "article": {
+      "type": "richtext"
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

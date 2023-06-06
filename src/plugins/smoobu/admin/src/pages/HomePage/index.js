@@ -14,7 +14,7 @@ const HomePage = () => {
 	  document.getElementById('statusMessage').style.display = 'block';
           document.getElementById('statusMessage').textContent = 'Syncing data...please wait';
           document.getElementById('statusMessage').style.color = '#000';
-    fetch('https://tiptopdroomvakanties.nl/php/smoobu.php')
+    fetch('https://tiptopdroomvakanties.nl/php/getSmoobu.php')
       .then(response => {
    
         if (!response.ok) {

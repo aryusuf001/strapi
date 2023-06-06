@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vakantiehuizen_categoriespl",
+  "info": {
+    "singularName": "vakantiehuizen-categories",
+    "pluralName": "vakantiehuizen-categoriespl",
+    "displayName": "Vakantiehuizen Categories",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

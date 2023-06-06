@@ -49,10 +49,11 @@
         "Week away in June"
       ]
     },
-    "services": {
-      "type": "component",
-      "repeatable": true,
-      "component": "services.services"
+    "vakantiehuizen_sub_categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::vakantiehuizen-sub-categories.vakantiehuizen-sub-categories",
+      "mappedBy": "vakantiehuizen_zeelands"
     }
   }
 }
